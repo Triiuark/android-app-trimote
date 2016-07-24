@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remote version="1.0">
+	<page label="TV">
+		<separator label="MONITOR / LG M2362D"/>
+		<row>
+			<button><actions>             <ir type="NEC"    address="0004" value="008"/>           </actions><text>                Power    </text></button>
+			<button><actions>             <ir type="NEC"    address="0004" value="199"/>           </actions><text>                DVI      </text></button>
+			<button><actions>             <ir type="NEC"    address="0004" value="213"/>           </actions><text>                VGA      </text></button>
+			<button><actions  repeat="50"><ir type="NEC"    address="0004" value="003"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="NEC"    address="0004" value="009"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="NEC"    address="0004" value="002"/>           </actions><text>                +        </text></button>
+		</row>
+<!--
+		<row>
+			<button><actions>             <ir type="NEC"    address="2362" value="021"/>           </actions><text>                Power    </text></button>
+			<button><actions>             <ir type="NEC"    address="2362" value="021"/>           </actions><text>                Pause    </text></button>
+		</row>
+-->
+		<separator/>
+		<row>
+			<button><actions>             <ir type="SHARP"  address="0002" value="193"/>           </actions><text>                Off      </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="201"/>           </actions><text>                TV       </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="202"/>           </actions><text>                PC       </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="205"/>           </actions><text>                PS3      </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="227"/>           </actions><text>                DVD      </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="SHARP"  address="0002" value="204"/>           </actions><text>                AUX      </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="106"/>           </actions><text>                Pure     </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="240"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="242"/>           </actions><text>                -        </text></button>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="241"/>           </actions><text>                +        </text></button>
+		</row>
+		<separator label="TV / Philips 47PFL7656K / 02"/>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="012"/>           </actions><text>                Power    </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="063"/>           </actions><text>                TV       </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="004"/>           </actions><text>                PC       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="057"/>           </actions><text>                PS3      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="071"/>           </actions><text>                Light    </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="001"/>           </actions><text>                1        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="002"/>           </actions><text>                2        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="003"/>           </actions><text>                3        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="004"/>           </actions><text>                4        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="005"/>           </actions><text>                5        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="006"/>           </actions><text>                6        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="007"/>           </actions><text>                7        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="008"/>           </actions><text>                8        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="009"/>           </actions><text>                9        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="000"/>           </actions><text>                0        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC6"    address="0000" value="077"/>           </actions><text>                Ch-      </text></button>
+			<button><actions>             <ir type="RC6"    address="0000" value="076"/>           </actions><text>                Ch+      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="013"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="017"/>           </actions><text>                -        </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="016"/>           </actions><text>                +        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="107"/>           </actions><text color="#ff9999">████     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="108"/>           </actions><text color="#99ff99">████     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="109"/>           </actions><text color="#ffff99">████     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="110"/>           </actions><text color="#9999ff">████     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="111"/>           </actions><text color="#ffffff">████     </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0003" value="044"/>           </actions><text>                Guide    </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="082"/>           </actions><text>                Home     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="060"/>           </actions><text>                Text     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="080"/>           </actions><text color="#ff9900">⇧        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="126"/>           </actions><text>                Mode     </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="073"/>           </actions><text>                Adjust   </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="034"/>           </actions><text>                ↩        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="085"/>           </actions><text color="#ff9900">⇦        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="087"/>           </actions><text color="#ffffff">OK       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="086"/>           </actions><text color="#ff9900">⇨        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="064"/>           </actions><text>                Options  </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="020"/>           </actions><text>                2D       </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="021"/>           </actions><text>                3D       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="081"/>           </actions><text color="#ff9900">⇩        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="015"/>           </actions><text>                ⓘ       </text></button>
+		</row>
+		<row>
+			<button><actions><!-- turn backlight on Philips TV off -->
+			                              <ir type="RC5"    address="0000" value="108" wait="000"/><!-- green -->
+			                              <ir type="RC5"    address="0000" value="081" wait="500"/><!-- down -->
+			                              <ir type="RC5"    address="0000" value="087" wait="050"/><!-- ok -->
+			                              <ir type="RC5"    address="0000" value="087" wait="100"/><!-- ok -->
+			                                                                                       </actions><text>                e++      </text></button>
+			<button><actions><!-- turn energy saving on -->
+			                              <ir type="RC5"    address="0000" value="108" wait="000"/><!-- green -->
+			                              <ir type="RC5"    address="0000" value="087" wait="500"/><!-- ok -->
+			                              <ir type="RC5"    address="0000" value="087" wait="500"/><!-- ok -->
+			                                                                                       </actions><text>                e+       </text></button>
+
+			<button><actions><!-- turn cinema mode on -->
+			                              <ir type="RC5"    address="0000" value="108" wait="000"/><!-- green -->
+			                              <ir type="RC5"    address="0000" value="087" wait="500"/><!-- ok -->
+			                              <ir type="RC5"    address="0000" value="080" wait="500"/><!-- up -->
+			                              <ir type="RC5"    address="0000" value="080" wait="100"/><!-- up -->
+			                              <ir type="RC5"    address="0000" value="087" wait="100"/><!-- ok -->
+			                                                                                       </actions><text>                e-       </text></button>
+		</row>
+		<separator/>
+		<row>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="242"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="240"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="241"/>           </actions><text>                +        </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="017"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="013"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="016"/>           </actions><text>                +        </text></button>
+		</row>
+		<separator/>
+	</page>
+	<page label="PC">
+		<row>
+			<button><actions>             <wol value="xx:xx:xx:xx:xx:xx"/>                                </actions><text>                WOL      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0108"/>              </actions><text>                ON-REBOOT</text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0109"/>              </actions><text>                OFF-HALT </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0402"/>              </actions><text>                ②        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0403"/>              </actions><text>                ③        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0417"/>              </actions><text>                ⇖        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0410"/>              </actions><text>                ⇑        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0411"/>              </actions><text>                ⇗        </text></button>
+		</row>
+		<row>
+			<button></button>
+			<button></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0416"/>              </actions><text>                ⇐        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0401"/>              </actions><text>                ①        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0412"/>              </actions><text>                ⇒        </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0404"/>              </actions><text>                ④        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0405"/>              </actions><text>                ⑤        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0415"/>              </actions><text>                ⇙        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0414"/>              </actions><text>                ⇓        </text></button>
+			<button><actions repeat="050"><lirc address="192.168.0.3:34567" value="0x0413"/>              </actions><text>                ⇘        </text></button>
+		</row>
+		<separator/>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0031"/>              </actions><text>                1        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0032"/>              </actions><text>                2        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0033"/>              </actions><text>                3        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0034"/>              </actions><text>                4        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0035"/>              </actions><text>                5        </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0036"/>              </actions><text>                6        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0037"/>              </actions><text>                7        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0038"/>              </actions><text>                8        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0039"/>              </actions><text>                9        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0030"/>              </actions><text>                0        </text></button>
+		</row>
+		<separator/>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0100"/>              </actions><text>                SYS      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0101"/>              </actions><text>                VDR      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0102"/>              </actions><text>                MPlayer  </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0103"/>              </actions><text>                MPC      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0104"/>              </actions><text>                WM       </text></button>
+		</row>
+		<separator/>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0201"/>              </actions><text>                On       </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0202"/>              </actions><text>                Off      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0204"/>              </actions><text>                Menu     </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x0230"/>              </actions><text>                ⇧        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0207"/>              </actions><text>                ⓘ        </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0208"/>              </actions><text>                ?        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0209"/>              </actions><text>                ⌚        </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x0232"/>              </actions><text>                ⇦        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0206"/>              </actions><text>                OK       </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x0233"/>              </actions><text>                ⇨        </text></button>
+		</row>
+		<row>
+			<button></button>
+			<button></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0203"/>              </actions><text>                ❏        </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x0231"/>              </actions><text>                ⇩        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0205"/>              </actions><text>                ↩        </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0240"/>              </actions><text color="#ff9999">████     </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0241"/>              </actions><text color="#99ff99">████     </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0242"/>              </actions><text color="#ffff99">████     </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0243"/>              </actions><text color="#9999ff">████     </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0244"/>              </actions><text color="#ffffff">████     </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0218"/>              </actions><text>                Ch-      </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0217"/>              </actions><text>                Ch+      </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x021a"/>              </actions><text>                -        </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x021b"/>              </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><lirc address="192.168.0.3:34567" value="0x0219"/>              </actions><text>                +        </text></button>
+		</row>
+		<row>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0214" />             </actions><text>                &lt;&lt; </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0210" />             </actions><text>                I&gt;    </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0212" />             </actions><text>                II       </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0211" />             </actions><text>                []       </text></button>
+			<button><actions>             <lirc address="192.168.0.3:34567" value="0x0213" />             </actions><text>                &gt;&gt; </text></button>
+		</row>
+
+
+		<separator/>
+		<row>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="242"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="240"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="241"/>           </actions><text>                +        </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="017"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="013"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="016"/>           </actions><text>                +        </text></button>
+		</row>
+		<separator/>
+	</page>
+	<page label="TV">
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="012"/>           </actions><text>                Power    </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="063"/>           </actions><text>                TV       </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="004"/>           </actions><text>                PC       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="057"/>           </actions><text>                PS3      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="071"/>           </actions><text>                Light    </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="001"/>           </actions><text>                1        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="002"/>           </actions><text>                2        </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="003"/>           </actions><text>                3        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="004"/>           </actions><text>                4        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="005"/>           </actions><text>                5        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="006"/>           </actions><text>                6        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="007"/>           </actions><text>                7        </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="008"/>           </actions><text>                8        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="009"/>           </actions><text>                9        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="000"/>           </actions><text>                0        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC6"    address="0000" value="077"/>           </actions><text>                Ch-      </text></button>
+			<button><actions>             <ir type="RC6"    address="0000" value="076"/>           </actions><text>                Ch+      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="013"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="017"/>           </actions><text>                -        </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="016"/>           </actions><text>                +        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="107"/>           </actions><text color="#ff9999">███      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="108"/>           </actions><text color="#99ff99">███      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="109"/>           </actions><text color="#ffff99">███      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="110"/>           </actions><text color="#9999ff">███      </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="111"/>           </actions><text color="#ffffff">███      </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0003" value="044"/>           </actions><text>                Guide    </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="082"/>           </actions><text>                Home     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="060"/>           </actions><text>                Text     </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="080"/>           </actions><text color="#ff99ff">⇧        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="126"/>           </actions><text>                Mode     </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="073"/>           </actions><text>                Adjust   </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="034"/>           </actions><text>                ↩        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="085"/>           </actions><text color="#ff99ff">⇦        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="087"/>           </actions><text color="#ff99ff">OK       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="086"/>           </actions><text color="#ff99ff">⇨        </text></button>
+		</row>
+		<row>
+			<button><actions>             <ir type="RC5"    address="0000" value="073"/>           </actions><text>                Opt.     </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="020"/>           </actions><text>                2D       </text></button>
+			<button><actions>             <ir type="RC5"    address="0003" value="021"/>           </actions><text>                3D       </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="081"/>           </actions><text color="#ff99ff">⇩        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="015"/>           </actions><text>                ⓘ        </text></button>
+		</row>
+		<separator/>
+		<row>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="242"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="SHARP"  address="0002" value="240"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="SHARP"  address="0002" value="241"/>           </actions><text>                +        </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="017"/>           </actions><text>                -        </text></button>
+			<button><actions>             <ir type="RC5"    address="0000" value="013"/>           </actions><text>                Mute     </text></button>
+			<button><actions  repeat="50"><ir type="RC5"    address="0000" value="016"/>           </actions><text>                +        </text></button>
+		</row>
+		<separator/>
+	</page>
+	<page label="MX-P">
+		<row>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/1"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> ARD </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/2"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> ZDF </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/3"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> SAT.1 </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/4"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> RTL </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/5"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> RTL2 </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/6"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> Pro7 </text></button>
+		</row>
+		<row>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/7"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> Kabel 1 </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/8"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> VOX </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/9"  package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> ARTE </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/10" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> 3sat </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/11" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> PHOENIX </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/12" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> neo/KiKA </text></button>
+		</row>
+		<row>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/13" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> ZDFinfo </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/14" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> Pro7M </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/15" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> S-RTL </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/16" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> sixx </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/17" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> TELE 5 </text></button>
+			<button><actions><intent value="view" type="application/x-mpegURL" address="http://192.168.0.3:30000/18" package="com.mxtech.videoplayer.ad" extraInt="position=0"/></actions><text> Disney </text></button>
+		</row>
+	</page>
+</remote>
+
