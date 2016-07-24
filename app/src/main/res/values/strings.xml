@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Trimote.
+  ~
+  ~ Copyright (c) 2013-2016 René Bählkow <triiuark@projekt182.de>
+  ~
+  ~ Trimote is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Trimote is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Trimote. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+	<string name="app_name">Trimote</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="pref_category_application">Application settings</string>
+	<string name="pref_category_layout">Layout settings</string>
+	<string name="pref_category_info">App information</string>
+
+	<string name="pref_file">Remote file</string>
+	<string name="pref_file_sum">Choose your remote xml file</string>
+
+	<string name="pref_lock">Screen lock</string>
+	<string name="pref_lock_sum_on">Default behavior\n </string>
+	<string name="pref_lock_sum_off">Disabled\nThis affects only Trimote.</string>
+	<string name="pref_sleep">Sleep</string>
+	<string name="pref_sleep_sum_on">Default behavior\n </string>
+	<string name="pref_sleep_sum_off">Disabled\nDevice stays awake</string>
+	<string name="pref_notification">Notification</string>
+	<string name="pref_notification_sum_on">Enabled\n </string>
+	<string name="pref_notification_sum_off">Disabled\n </string>
+	<string name="pref_brightness">Brightness</string>
+	<string name="pref_brightness_default">Auto</string>
+	<string name="pref_debug">Debug</string>
+	<string name="pref_debug_sum_on">Enabled\n </string>
+	<string name="pref_debug_sum_off">Disabled\n </string>
+	<string name="pref_theme">Theme</string>
+	<string name="pref_theme_sum">Choose a theme</string>
+	<string name="pref_background">Background</string>
+	<string name="pref_background_sum">Choose a background</string>
+	<string name="pref_text_size_default">Default</string>
+	<string name="pref_button_text_size">Button text size</string>
+	<string name="pref_tab_text_size">Tab text size</string>
+	<string name="pref_label_text_size">Label text size</string>
+	<string name="pref_widget_height_default">Auto</string>
+	<string name="pref_button_height">Button height</string>
+	<string name="pref_tab_height">Tab height</string>
+	<string name="pref_margin_default">Default</string>
+	<string name="pref_vertical_margin">Vertical margin</string>
+	<string name="pref_horizontal_margin">Horizontal margin</string>
+	<string name="pref_build_version">Version</string>
+	<string name="pref_build_commit">Git commit</string>
+	<string name="pref_build_date">Build date</string>
+	<string name="error_file_not_found">File %s not found</string>
+</resources>

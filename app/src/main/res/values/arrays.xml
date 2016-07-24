@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Trimote.
+  ~
+  ~ Copyright (c) 2013-2016 René Bählkow <triiuark@projekt182.de>
+  ~
+  ~ Trimote is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Trimote is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Trimote. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="pref_theme">
+		<item>Default</item>
+		<item>Black</item>
+		<item>Light</item>
+		<item>Device Default</item>
+		<item>Device Default Light</item>
+		<item>Holo</item>
+		<item>Holo Light</item>
+	</string-array>
+	<string-array
+			name="pref_theme_values"
+			tools:ignore="MissingTranslation">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<!--
+		<item>@android:style/Theme.NoTitleBar</item>
+		<item>@android:style/Theme.Black.NoTitleBar</item>
+		<item>@android:style/Theme.Light.NoTitleBar</item>
+		<item>@android:style/Theme.DeviceDefault.NoActionBar</item>
+		<item>@android:style/Theme.DeviceDefault.Light.NoActionBar</item>
+		<item>@android:style/Theme.Holo.NoActionBar</item>
+		<item>@android:style/Theme.Holo.Light.NoActionBar</item>
+		 <item>16974121</item>
+		<item>16974124</item>
+		<item>16974141</item>
+		<item>16973932</item>
+		<item>16974064</item>
+		<item>16973950</item>-->
+	</string-array>
+	<string-array name="pref_background">
+		<item>Default</item>
+		<item>Transparent</item>
+		<item>Dark transparent</item>
+		<item>Light transparent</item>
+	</string-array>
+	<string-array
+			name="pref_background_values"
+			tools:ignore="MissingTranslation">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+</resources>
+

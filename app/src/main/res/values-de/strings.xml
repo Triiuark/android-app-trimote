@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Trimote.
+  ~
+  ~ Copyright (c) 2013-2016 René Bählkow <triiuark@projekt182.de>
+  ~
+  ~ Trimote is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Trimote is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Trimote. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+	<string name="app_name">Trimote</string>
+	<string name="action_settings">Einstellungen</string>
+
+	<string name="pref_category_application">Anwendungseinstellungen</string>
+	<string name="pref_category_layout">Layouteinstellungen</string>
+	<string name="pref_category_info">App-Informationen</string>
+
+	<string name="pref_file">Fernbedienungsdatei</string>
+	<string name="pref_file_sum">Wähle die Fernbedienuns-XML-Datei aus</string>
+
+	<string name="pref_lock">Sperrbildschirm</string>
+	<string name="pref_lock_sum_on">Standardverhalten\n </string>
+	<string name="pref_lock_sum_off">Aus\n(betrifft nur Trimote)</string>
+	<string name="pref_sleep">Ruhezustand</string>
+	<string name="pref_sleep_sum_on">Standard\n </string>
+	<string name="pref_sleep_sum_off">Aus\n(Gerät bleibt wach)</string>
+	<string name="pref_notification">Benachrichtung</string>
+	<string name="pref_notification_sum_on">Ein\n </string>
+	<string name="pref_notification_sum_off">Aus\n </string>
+	<string name="pref_brightness">Helligkeit</string>
+	<string name="pref_brightness_default">Auto</string>
+	<string name="pref_debug">Informationspopup</string>
+	<string name="pref_debug_sum_on">Ein\n </string>
+	<string name="pref_debug_sum_off">Aus\n </string>
+	<string name="pref_theme">Thema</string>
+	<string name="pref_theme_sum">Wähle ein Thema aus</string>
+	<string name="pref_background">Hintergrund</string>
+	<string name="pref_background_sum">Hintergrund auswählen</string>
+	<string name="pref_text_size_default">Standard</string>
+	<string name="pref_button_text_size">Button-Textgröße</string>
+	<string name="pref_tab_text_size">Tab-Textgröße</string>
+	<string name="pref_label_text_size">Label-Textgröße</string>
+	<string name="pref_widget_height_default">Auto</string>
+	<string name="pref_button_height">Button-Höhe</string>
+	<string name="pref_tab_height">Tab-Höhe</string>
+	<string name="pref_margin_default">Standard</string>
+	<string name="pref_vertical_margin">Vertikaler Rand</string>
+	<string name="pref_horizontal_margin">Horizontaler Rand</string>
+	<string name="pref_build_version">Version</string>
+	<string name="pref_build_commit">Git-Commit</string>
+	<string name="pref_build_date">Erstellungsdatum</string>
+	<string name="error_file_not_found">File %s not found</string>
+</resources>

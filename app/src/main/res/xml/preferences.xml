@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Trimote.
+  ~
+  ~ Copyright (c) 2013-2016 René Bählkow <triiuark@projekt182.de>
+  ~
+  ~ Trimote is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Trimote is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Trimote. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:triiuark="http://schemas.android.com/apk/res-auto">
+	<triiuark.android.app.trimote.InodePreference
+			android:key="file"
+			android:summary="@string/pref_file_sum"
+			android:title="@string/pref_file"
+			triiuark:type="file" />
+	<PreferenceCategory
+			android:defaultValue="/sdcard/trimote.xml"
+			android:key="category_application"
+			android:title="@string/pref_category_application">
+		<CheckBoxPreference
+				android:defaultValue="false"
+				android:key="lock"
+				android:summaryOff="@string/pref_lock_sum_off"
+				android:summaryOn="@string/pref_lock_sum_on"
+				android:title="@string/pref_lock" />
+		<CheckBoxPreference
+				android:defaultValue="false"
+				android:key="sleep"
+				android:summaryOff="@string/pref_sleep_sum_off"
+				android:summaryOn="@string/pref_sleep_sum_on"
+				android:title="@string/pref_sleep" />
+		<CheckBoxPreference
+				android:defaultValue="true"
+				android:key="notification"
+				android:summaryOff="@string/pref_notification_sum_off"
+				android:summaryOn="@string/pref_notification_sum_on"
+				android:title="@string/pref_notification" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="-1"
+				android:key="brightness"
+				android:title="@string/pref_brightness"
+				triiuark:defaultString="@string/pref_brightness_default"
+				triiuark:maxValue="100"
+				triiuark:minValue="0"
+				triiuark:suffix="%" />
+		<CheckBoxPreference
+				android:defaultValue="false"
+				android:key="debug"
+				android:summaryOff="@string/pref_debug_sum_off"
+				android:summaryOn="@string/pref_debug_sum_on"
+				android:title="@string/pref_debug" />
+	</PreferenceCategory>
+	<PreferenceCategory
+			android:key="category_layout"
+			android:title="@string/pref_category_layout">
+
+		<ListPreference
+				android:defaultValue="5"
+				android:entries="@array/pref_theme"
+				android:entryValues="@array/pref_theme_values"
+				android:key="theme"
+				android:summary="@string/pref_theme_sum"
+				android:title="@string/pref_theme" />
+		<ListPreference
+				android:defaultValue="0"
+				android:entries="@array/pref_background"
+				android:entryValues="@array/pref_background_values"
+				android:key="background"
+				android:summary="@string/pref_background_sum"
+				android:title="@string/pref_background" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="12sp"
+				android:key="button_text_size"
+				android:title="@string/pref_button_text_size"
+				triiuark:defaultString="@string/pref_text_size_default"
+				triiuark:maxValue="40"
+				triiuark:minValue="5"
+				triiuark:suffix="sp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="12sp"
+				android:key="tab_text_size"
+				android:title="@string/pref_tab_text_size"
+				triiuark:defaultString="@string/pref_text_size_default"
+				triiuark:maxValue="40"
+				triiuark:minValue="5"
+				triiuark:suffix="sp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="9sp"
+				android:key="label_text_size"
+				android:title="@string/pref_label_text_size"
+				triiuark:defaultString="@string/pref_text_size_default"
+				triiuark:maxValue="40"
+				triiuark:minValue="5"
+				triiuark:suffix="sp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="38dp"
+				android:key="button_height"
+				android:title="@string/pref_button_height"
+				triiuark:defaultString="@string/pref_widget_height_default"
+				triiuark:maxValue="60"
+				triiuark:minValue="20"
+				triiuark:suffix="dp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="38dp"
+				android:key="tab_height"
+				android:title="@string/pref_tab_height"
+				triiuark:defaultString="@string/pref_widget_height_default"
+				triiuark:maxValue="60"
+				triiuark:minValue="20"
+				triiuark:suffix="dp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="5dp"
+				android:key="vertical_margin"
+				android:title="@string/pref_vertical_margin"
+				triiuark:defaultString="@string/pref_margin_default"
+				triiuark:maxValue="48"
+				triiuark:minValue="0"
+				triiuark:suffix="dp" />
+		<triiuark.android.app.trimote.SeekBarPreference
+				android:defaultValue="5dp"
+				android:key="horizontal_margin"
+				android:title="@string/pref_horizontal_margin"
+				triiuark:defaultString="@string/pref_margin_default"
+				triiuark:maxValue="48"
+				triiuark:minValue="0"
+				triiuark:suffix="dp" />
+	</PreferenceCategory>
+	<PreferenceCategory
+			android:key="category_info"
+			android:title="@string/pref_category_info">
+		<Preference
+				android:selectable="false"
+				android:enabled="true"
+				android:title="@string/pref_build_version"
+				android:summary="@string/BUILD_VERSION" />
+		<Preference
+				android:selectable="false"
+				android:enabled="true"
+				android:title="@string/pref_build_commit"
+				android:summary="@string/BUILD_COMMIT" />
+		<Preference
+				android:selectable="false"
+				android:enabled="true"
+				android:title="@string/pref_build_date"
+				android:summary="@string/BUILD_DATE" />
+	</PreferenceCategory>
+</PreferenceScreen>

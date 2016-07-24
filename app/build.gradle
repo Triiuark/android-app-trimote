@@ -1,0 +1,66 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    def gitCommit     = "git rev-list --abbrev-commit --max-count=1 HEAD".execute().text.trim();
+    def sdf           = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
+    def date          = new Date();
+    def utc           = TimeZone.getTimeZone("UTC");
+    def buildDate     = "";
+    def buildDateFile = "";
+
+    sdf.setTimeZone(utc);
+    buildDate = sdf.format(date);
+
+    sdf = new SimpleDateFormat("yyyyMMdd-HHmmss");
+    sdf.setTimeZone(utc);
+    buildDateFile = sdf.format(date);
+
+    defaultConfig {
+        applicationId "triiuark.android.app.trimote"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "COMMIT", "\"${gitCommit}\""
+        buildConfigField "String", "DATE", "\"${buildDate}\""
+        buildConfigField "Boolean", "IS_DEBUG", "false"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            versionNameSuffix ".debug"
+            buildConfigField "Boolean", "IS_DEBUG", "true"
+            return true
+        }
+        applicationVariants.all {
+            variant ->
+                variant.resValue "string", "BUILD_VERSION", "${variant.versionName} (${variant.versionCode})"
+                variant.resValue "string", "BUILD_COMMIT", gitCommit
+                variant.resValue "string", "BUILD_DATE", buildDate
+                variant.outputs.each { output ->
+                    def finalName =
+                            "trimote-${variant.versionName}-${gitCommit}-${buildDateFile}.apk";
+
+                    output.outputFile = new File((String)output.outputFile.parent, finalName);
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+}

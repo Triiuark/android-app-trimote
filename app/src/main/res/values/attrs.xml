@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Trimote.
+  ~
+  ~ Copyright (c) 2013-2016 René Bählkow <triiuark@projekt182.de>
+  ~
+  ~ Trimote is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Trimote is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Trimote. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+	<declare-styleable name="SeekBarPreference">
+		<attr name="withDefault" format="boolean" />
+		<attr name="minValue" format="integer" />
+		<attr name="maxValue" format="integer" />
+		<attr name="defaultString" format="string" />
+		<attr name="prefix" format="string" />
+		<attr name="suffix" format="string" />
+	</declare-styleable>
+	<declare-styleable name="InodePreference">
+		<attr name="needsWrite" format="boolean" />
+		<attr name="type">
+			<!-- has to be InodePreference.TYPE_FILE -->
+			<flag name="file" value="0x01" />
+			<!-- has to be InodePreference.TYPE_DIR  -->
+			<flag name="directory" value="0x02" />
+		</attr>
+	</declare-styleable>
+</resources>
