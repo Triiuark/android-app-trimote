@@ -19,7 +19,6 @@
   -->
 
 <resources>
-	<string name="app_name">Trimote</string>
 	<string name="action_settings">Einstellungen</string>
 
 	<string name="pref_category_application">Anwendungseinstellungen</string>

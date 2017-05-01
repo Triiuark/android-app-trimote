@@ -6,6 +6,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion '25.0.0'
 
+    def appName       = "Trimote"
     def gitCommit     = "git rev-list --abbrev-commit --max-count=1 HEAD".execute().text.trim();
     def sdf           = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
     def date          = new Date();
@@ -37,8 +38,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-            versionNameSuffix ".debug"
             buildConfigField "Boolean", "IS_DEBUG", "true"
+            appName = "${appName}-DEV"
             return true
         }
         applicationVariants.all {
@@ -46,9 +47,10 @@ android {
                 variant.resValue "string", "BUILD_VERSION", "${variant.versionName} (${variant.versionCode})"
                 variant.resValue "string", "BUILD_COMMIT", gitCommit
                 variant.resValue "string", "BUILD_DATE", buildDate
+                resValue "string", "app_name", "${appName}"
                 variant.outputs.each { output ->
                     def finalName =
-                            "trimote-${variant.versionName}-${gitCommit}-${buildDateFile}.apk";
+                            "${appName}-${variant.versionName}-${gitCommit}-${buildDateFile}.apk";
 
                     output.outputFile = new File((String)output.outputFile.parent, finalName);
             }
