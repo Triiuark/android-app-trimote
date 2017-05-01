@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     def gitCommit     = "git rev-list --abbrev-commit --max-count=1 HEAD".execute().text.trim();
     def sdf           = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
